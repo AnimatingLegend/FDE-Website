@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<meta charset="utf-8">
+	
+	<title>Friday Night Funkin' - Definitive Edition</title>
+	
+	<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	
+	
+	<link rel="shortcut icon" type="image/png" href="./favicon.png">
+	
+	
+	<script type="text/javascript" src="./Funkin' Def-Edition.js"></script>
+	
+	<script>
+		window.addEventListener ("touchmove", function (event) { event.preventDefault (); }, { capture: false, passive: false });
+		if (typeof window.devicePixelRatio != 'undefined' && window.devicePixelRatio > 2) {
+			var meta = document.getElementById ("viewport");
+			meta.setAttribute ('content', 'width=device-width, initial-scale=' + (2 / window.devicePixelRatio) + ', user-scalable=no');
+		}
+	</script>
+	
+	<style>
+		html,
+		body { 
+			margin: 0; 
+			padding: 0; 
+			height: 100%; 
+			background-color: #000000;
+		}
+
+		.border {
+  			width: 1580px;
+  			background-color: #fff;
+  			padding: 20px;
+  			margin-left: auto;
+  			margin-right: auto;
+  			border: 1px solid #959485;
+		}
+
+		#openfl-content { 
+			background: #000000; 
+			width: 100%; 
+			height: 100%; 
+		}
+
+		@font-face {
+			font-family: 'Pixel Arial 11 Bold';
+			src: url('assets/fonts/pixel.eot?#iefix') format('embedded-opentype'),
+			url('assets/fonts/pixel.woff') format('woff'),
+			url('assets/fonts/pixel.otf') format('truetype');
+			font-weight: normal;
+			font-style: normal;
+		}
+
+		@font-face {
+			font-family: 'VCR OSD Mono';
+			src: url('assets/fonts/vcr.eot?#iefix') format('embedded-opentype'),
+			url('assets/fonts/vcr.woff') format('woff'),
+			url('assets/fonts/vcr.ttf') format('truetype'),
+			url('assets/fonts/vcr.svg#VCR%20OSD%20Mono') format('svg');
+			font-weight: normal;
+			font-style: normal;
+		}
+
+		@font-face {
+			font-family: 'Nokia Cellphone FC Small';
+			src: url('flixel/fonts/nokiafc22.eot?#iefix') format('embedded-opentype'),
+			url('flixel/fonts/nokiafc22.woff') format('woff'),
+			url('flixel/fonts/nokiafc22.ttf') format('truetype'),
+			url('flixel/fonts/nokiafc22.svg#Nokia%20Cellphone%20FC%20Small') format('svg');
+			font-weight: normal;
+			font-style: normal;
+		}
+
+		@font-face {
+			font-family: 'Monsterrat';
+			src: url('flixel/fonts/monsterrat.eot?#iefix') format('embedded-opentype'),
+			url('flixel/fonts/monsterrat.woff') format('woff'),
+			url('flixel/fonts/monsterrat.ttf') format('truetype'),
+			url('flixel/fonts/monsterrat.svg#Monsterrat') format('svg');
+			font-weight: normal;
+			font-style: normal;
+		}
+
+	</style>
+	
+</head>
+<body>
+	
+	<noscript>This webpage makes extensive use of JavaScript. Please enable JavaScript in your web browser to view this page.</noscript>
+	
+	<div id="openfl-content"></div>
+	
+	<script type="text/javascript">
+		lime.embed ("Funkin' Def-Edition", "openfl-content", 1280, 720, { parameters: {} });
+	</script>
+
+	<div class="border">
+		<button style="align-items: center;">Download Now</button>
+
+		<h1>Description:</h1>
+	
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+			Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+			Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+			Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+	
+		<br>
+		<h1>Controls</h1>
+		<p>
+			The WASD/Arrow keys are the default controls, if you want them customize them then you can do so in the options menu.
+			<br>
+			- & + are the volume controls, and 0 is to mute the game completely.
+		</p>
+	
+		<br>
+		<h1>Links</h1>
+		<p>Github link: <a href="https://github.com/AnimatingLegend/Funkin-Definitive-Edition">https://github.com/AnimatingLegend/Funkin-Definitive-Edition</a></p>
+		<p>The Funkin' Crew: <a href="https://github.com/FunkinCrew/Funkin">https://github.com/FunkinCrew/Funkin</a></p>
+	</div>
+</body>
+</html>
